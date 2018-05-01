@@ -1,0 +1,31 @@
+baseurl = "https://consagracion.ticnsp.org"
+title = "Consagración"
+author = "TICNSP.org"
+canonifyurls = true
+languagecode = "en"
+theme = "black-and-light"
+builddrafts = true
+
+pygmentsstyle       = "bw"
+pygmentscodefences  = true
+
+extracssfiles          = [ "/css/custom.css" ]
+
+[permalinks]
+blog  = "consagracion/:slug/"
+
+[params]
+  sitename = "Consagración a la Virgen María"
+
+[[menu.main]]
+    name = "Esquema"
+    url  = "/esquema/"
+
+[[menu.main]]
+    name = "Fechas"
+    url  = "/fechas/"
+[[menu.main]]
+    name = "Oraciones"
+    url  = "/oraciones/"
+
+
